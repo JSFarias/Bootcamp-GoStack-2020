@@ -1,7 +1,12 @@
 const express = require('express')
+const cors = require('cors')
 const { uuid , isUuid } = require('uuidv4')
 
 const app = express()
+
+app.use(cors({
+  origin: 'http://localhost:8080'
+}))
 app.use(express.json())
 
 
@@ -45,7 +50,7 @@ app.get('/projects', (req, res)=>{
 
 app.post('/projects', (req, res)=>{
 
-  const {name, age, carrier} =  req.body
+  const {id, name, age, carrier} =  req.body
 
   const project = { id:uuid(), name, age, carrier}
 

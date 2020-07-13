@@ -1,9 +1,6 @@
 [submodule "Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge"]
 	path = Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-NodeJS-Concepts-Challenge.git
-[submodule "Front-end com ReactJS/Bootcamp-GoStack-NodeJS-Concepts-Challenge"]
-	path = Front-end com ReactJS/Bootcamp-GoStack-NodeJS-Concepts-Challenge
-	url = https://github.com/JSFarias/Bootcamp-GoStack-NodeJS-Concepts-Challenge.git
 [submodule "Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge"]
 	path = Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactJS-Concepts-Challenge.git

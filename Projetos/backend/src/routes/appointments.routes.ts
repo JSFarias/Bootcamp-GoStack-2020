@@ -1,15 +1,17 @@
 import {Router} from 'express'
-import {uuid} from 'uuidv4'
-import {startOfHour, parseISO, isEqual} from 'date-fns'
+import {startOfHour, parseISO} from 'date-fns'
+
+import AppointmentsRepository from '../repositories/AppointmentsRepository'
 
 const appointmentsRoutes = Router()
+const appointmentsRepository = new AppointmentsRepository()
 
-interface AppointmentData{
-  id: string,
-  provider: string,
-  date: Date,
-}
-const appointments: AppointmentData[] = []
+appointmentsRoutes.get('/', (request, response)=>{
+  
+  const appointments = appointmentsRepository.all()
+
+  return response.json(appointments)
+})
 
 appointmentsRoutes.post('/', (request, response)=>{
 
@@ -17,7 +19,7 @@ appointmentsRoutes.post('/', (request, response)=>{
 
   const parsedDate = startOfHour(parseISO(date))
 
-  const findAppointmentInSameDate = appointments.find(appointment => isEqual(parsedDate, appointment.date))
+  const findAppointmentInSameDate = appointmentsRepository.findByDate(parsedDate)
   
   if(findAppointmentInSameDate){
     return response
@@ -25,15 +27,9 @@ appointmentsRoutes.post('/', (request, response)=>{
     .json({message:'This appointment is already booked'})
   }
 
-  const appointment = {
-    id: uuid(),
-    provider,
-    date: parsedDate,
-  }
+  const newAppointment = appointmentsRepository.create(provider, parsedDate)
 
-  appointments.push(appointment)
-
-  return response.json(appointment)
+  return response.json(newAppointment)
 })
 
 export default appointmentsRoutes

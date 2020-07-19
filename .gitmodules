@@ -4,3 +4,6 @@
 [submodule "Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge"]
 	path = Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactJS-Concepts-Challenge.git
+[submodule "Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge"]
+	path = Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge
+	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactNative-Challenge.git

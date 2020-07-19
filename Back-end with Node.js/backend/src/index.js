@@ -39,22 +39,26 @@ app.use('/projects/:id', validateProjectId)
 
 app.get('/projects', (req, res)=>{
 
-  const {carrier} = req.query
+  const {techs} = req.query
 
-  const result = carrier
-  ? projects.filter(project => project.carrier.includes(carrier))
+  const result = techs
+  ? projects.filter(project => project.techs.includes(techs))
   : projects
 
+  console.log(projects)
   return res.send(result)
 })
 
 app.post('/projects', (req, res)=>{
 
-  const {id, name, age, carrier} =  req.body
+  const {id, title, techs} =  req.body
+  const likes = 0
 
-  const project = { id:uuid(), name, age, carrier}
+  const project = { id:uuid(), title, techs, likes}
 
+  
   projects.push(project)
+  console.log(projects, 'aqui')
 
   return res.json(project)
 })
@@ -68,12 +72,12 @@ app.put('/projects/:id', (req, res)=>{
     return res.status(400).json({error: 'project not found!'})
   }
 
-  const {name, age, carrier} =  req.body
+  const {likes} =  req.body
   const project = {
     id,
-    name,
-    age,
-    carrier
+    title: projects[projectIndex].title,
+    techs: projects[projectIndex].techs,
+    likes
   }
 
   projects[projectIndex] = project;

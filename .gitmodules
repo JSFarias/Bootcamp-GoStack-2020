@@ -7,3 +7,6 @@
 [submodule "Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge"]
 	path = Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactNative-Challenge.git
+[submodule "Projetos/Bootcamp-GoStack-NodeJS-Fundaments-Challenge"]
+	path = Projetos/Bootcamp-GoStack-NodeJS-Fundaments-Challenge
+	url = https://github.com/JSFarias/Bootcamp-GoStack-NodeJS-Fundaments-Challenge.git

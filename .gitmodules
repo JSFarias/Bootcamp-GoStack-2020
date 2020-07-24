@@ -1,12 +1,12 @@
-[submodule "Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge"]
-	path = Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge
+[submodule "Nivel01/Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge"]
+	path = Nivel01/Back-end with Node.js/Bootcamp-GoStack-NodeJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-NodeJS-Concepts-Challenge.git
-[submodule "Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge"]
-	path = Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge
+[submodule "Nivel01/Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge"]
+	path = Nivel01/Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactJS-Concepts-Challenge.git
-[submodule "Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge"]
-	path = Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge
+[submodule "Nivel01/Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge"]
+	path = Nivel01/Mobile com React Native/Bootcamp-GoStack-ReactNative-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactNative-Challenge.git
-[submodule "Projetos/Bootcamp-GoStack-NodeJS-Fundaments-Challenge"]
-	path = Projetos/Bootcamp-GoStack-NodeJS-Fundaments-Challenge
+[submodule "Nivel02-06/Bootcamp-GoStack-NodeJS-Fundaments-Challenge"]
+	path = Nivel02-06/Bootcamp-GoStack-NodeJS-Fundaments-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-NodeJS-Fundaments-Challenge.git

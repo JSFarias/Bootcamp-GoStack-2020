@@ -10,3 +10,6 @@
 [submodule "Nivel01/Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge"]
 	path = Nivel01/Front-end com ReactJS/Bootcamp-GoStack-ReactJS-Concepts-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-ReactJS-Concepts-Challenge.git
+[submodule "Nivel02-06/Bootcamp-GoStack-Database-Upload-Challenge"]
+	path = Nivel02-06/Bootcamp-GoStack-Database-Upload-Challenge
+	url = https://github.com/JSFarias/Bootcamp-GoStack-Database-Upload-Challenge.git

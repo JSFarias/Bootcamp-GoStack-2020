@@ -16,3 +16,9 @@
 [submodule "Nivel02-06/ReactJS/bootcamp-gostack-fundamentos-reactjs"]
 	path = Nivel02-06/ReactJS/bootcamp-gostack-fundamentos-reactjs
 	url = https://github.com/JSFarias/bootcamp-gostack-fundamentos-reactjs.git
+[submodule "Nivel02-06/ReactJS/bootcamp-gostack-reactjs-concepts-challenge"]
+	path = Nivel02-06/ReactJS/bootcamp-gostack-reactjs-concepts-challenge
+	url = https://github.com/JSFarias/bootcamp-gostack-reactjs-concepts-challenge.git
+[submodule "Nivel02-06/NodeJS/bootcamp-gostack-database-upload-challenge"]
+	path = Nivel02-06/NodeJS/bootcamp-gostack-database-upload-challenge
+	url = https://github.com/JSFarias/bootcamp-gostack-database-upload-challenge.git

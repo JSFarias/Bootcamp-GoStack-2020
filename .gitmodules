@@ -13,6 +13,3 @@
 [submodule "Nivel02-06/Bootcamp-GoStack-Database-Upload-Challenge"]
 	path = Nivel02-06/Bootcamp-GoStack-Database-Upload-Challenge
 	url = https://github.com/JSFarias/Bootcamp-GoStack-Database-Upload-Challenge.git
-[submodule "Nivel02-06/ReactJS/bootcamp-gostack-fundamentos-reactjs"]
-	path = Nivel02-06/ReactJS/bootcamp-gostack-fundamentos-reactjs
-	url = https://github.com/JSFarias/bootcamp-gostack-fundamentos-reactjs.git
